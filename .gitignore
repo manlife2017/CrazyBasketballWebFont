@@ -59,3 +59,6 @@ typings/
 
 # next.js build output
 .next
+
+# node
+./crazy_basketball/node_modules
