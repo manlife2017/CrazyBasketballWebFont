@@ -1,2 +1,13 @@
 {
+    "extraBabelPlugins":[
+        ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+    ],
+    "entry": "src/index.js",
+      "proxy": {
+    "/api": {
+      "target": "http://127.0.0.1:5000/",
+      "changeOrigin": true,
+      "pathRewrite": { "^/" : "" }
+    }
+  }
 }
